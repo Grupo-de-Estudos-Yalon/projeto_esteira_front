@@ -4,6 +4,7 @@ const styles = StyleSheet.create({
     container: {
         flex: '1',
         backgroundColor: '#191414',
+        alignItems: 'center',
     },
     kanji: {
         fontFamily: 'NotoSansJP_400Regular',
@@ -13,10 +14,13 @@ const styles = StyleSheet.create({
         
     },
     textoDuran: {
+        flex: '1',
+        marginTop: '80px',
+        paddingHorizontal: '30px',
         color: '#1DB954',
         fontFamily: 'Montserrat_900Black',
-        alignContent:'center',
-        alignItems: 'center'
+        justifyContent: 'center',
+        textAlign: 'justify'
     }
 });
 
